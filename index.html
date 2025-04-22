@@ -1,13 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Aryan Fanid</title>
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aryan Fanid | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.2rem; }
 
+    nav {
+      background: #fff;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 3rem 1rem;
+    }
+    h2 { margin-bottom: 1rem; }
+
+    .projects {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .project-card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    }
+    .project-card h3 {
+      margin-bottom: 0.5rem;
+    }
+    .project-card a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .socials a {
+      margin: 0 0.5rem;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
 <body>
-  <h1>Hello, 👋!</h1>
+
+<header>
+  <h1>Aryan Fanid</h1>
+  <p>• Software Engineer •</p>
+</header>
+
+<nav>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project-card">
+      <h3>Project One</h3>
+      <p>Short description of your project. What it does, why it's cool.</p>
+      <a href="https://github.com/aryanfanid" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>Project Two</h3>
+      <p>Another project you’re proud of. Mention tech stack or use case.</p>
+      <a href="https://github.com/aryanfanid/project-two" target="_blank">View on GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Want to get in touch? Shoot me an email or connect on social media.</p>
+  <p>Email: <a href="mailto:aryan.fanid90@yahoo.com">aryan.fanid90@yahoo.com</a></p>
+  <div class="socials">
+    <a href="https://github.com/aryanfanid" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/aryanfanid" target="_blank">LinkedIn</a>
+    <!-- Add more if needed -->
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Aryan Fanid. Built with 💻</p>
+</footer>
+
 </body>
 </html>
+
